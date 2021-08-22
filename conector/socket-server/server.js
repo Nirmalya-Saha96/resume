@@ -18,8 +18,7 @@ app.get('/', (req, res)=>{
 //Collaborate
 
 mongoose.connect(
-   //'mongodb+srv://admin-Nirmalya:nirmalya@todolist1.wkjay.mongodb.net/colaborateDB',
-  'mongodb+srv://admin-Nirmalya:nirmalya@todolist1.wkjay.mongodb.net/colaborateDB',
+  '<mongo url>',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
