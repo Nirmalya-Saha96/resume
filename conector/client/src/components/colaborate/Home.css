@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+}
+.home-container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-card {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(26, 74, 136);
+  -moz-box-shadow: 0px 0px 5px 5px rgb(26, 74, 136);
+  box-shadow: 0px 0px 5px 5px rgba(26, 74, 136);
+  border-radius: 8%;
+  min-height: 420px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-card img {
+  width: 120px;
+}
+.home-card input {
+  margin-top: 30px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+.home-btns {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.home-btns button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #51c4d3;
+  color: black;
+  cursor: pointer;
+  width: 130px;
+}
+.home-btns button:hover {
+  background-color: #fffd6e;
+}
+.home-footer {
+  color: rgb(7, 175, 180);
+  margin: 10px 0 10px 0;
+}
+.home-footer a {
+  text-decoration: none;
+  color: white;
+}
+.home-instruction {
+  margin-top: 10px;
+  color: rgb(252, 5, 5);
+  text-align: center;
+  font-size: 0.9rem;
+}
