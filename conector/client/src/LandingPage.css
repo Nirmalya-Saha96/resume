@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(89deg, #e700b9 0%, #05c3d8 100%);
+  }
+  
+  .heading{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: rgb(13, 13, 102);
+    padding: 10px;
+    text-align: center;
+    /* margin-bottom: 80%; */
+  }
+
+  .App-header {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(98, 220, 236);
+  }
+  
+  .subheading{
+    margin: 5px;
+    padding: 5px;
+    font-size: 2rem;
+    font-family: cursive;
+    color: yellowgreen;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  
+
+@media only screen and (max-width: 600px) {
+  .cardcustom{
+    margin-top: 15%;
+      margin-left: 5%;
+  }
+}
+
+.cardcustom{
+    margin-top: 5%;
+  }
+  
+  .particles{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
